@@ -1,0 +1,16 @@
+mlflow
+pandas
+numpy
+scikit-learn
+python-dotenv
+python-dotenv
+pyyaml
+optuna
+dagshub
+matplotlib
+flask
+SQLAlchemy
+streamlit
+torch
+psycopg2
+seaborn

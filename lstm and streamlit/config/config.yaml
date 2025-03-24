@@ -1,0 +1,5 @@
+data_ingestion:
+  bucket_name: "weather-bucket-12"
+  train_file: "train.csv"
+  test_file: "test.csv" 
+

@@ -1,0 +1,277 @@
+  2025-03-21 16:31:31,256 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-03-21 16:31:31,260 - INFO - Accessing as dipankardutta399
+2025-03-21 16:31:31,792 - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/dipankardutta399/WeatherProj "HTTP/1.1 200 OK"
+2025-03-21 16:31:32,246 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-03-21 16:31:32,248 - INFO - Initialized MLflow to track repo "dipankardutta399/WeatherProj"
+2025-03-21 16:31:32,248 - INFO - Repository dipankardutta399/WeatherProj initialized!
+2025-03-21 16:31:32,347 - INFO - Parameter Tuning started
+2025-03-21 16:32:29,846 - INFO - Parameter tuning completed successfully...
+2025-03-21 16:32:29,846 - INFO - Best params are: {'hidden_size': 200, 'learning_rate': 0.0042379593931899315, 'dropout': 0.2089813985932726, 'weight_decay': 3.7727832099153944e-05, 'n_layers': 4, 'n_epochs': 31}
+2025-03-21 16:32:30,882 - INFO - Best model training starting...
+2025-03-21 16:32:31,038 - INFO - Epoch: 1/31 TrainLoss: 0.4477377157658339 ValLoss: 35.15924072265625
+2025-03-21 16:32:31,177 - INFO - Epoch: 2/31 TrainLoss: 0.3313399489969015 ValLoss: 35.145423889160156
+2025-03-21 16:32:31,320 - INFO - Epoch: 3/31 TrainLoss: 0.2924156092107296 ValLoss: 34.75563430786133
+2025-03-21 16:32:31,453 - INFO - Epoch: 4/31 TrainLoss: 0.25868924222886563 ValLoss: 34.41602325439453
+2025-03-21 16:32:31,588 - INFO - Epoch: 5/31 TrainLoss: 0.2537206970155239 ValLoss: 33.52923583984375
+2025-03-21 16:32:31,724 - INFO - Epoch: 6/31 TrainLoss: 0.24151601567864417 ValLoss: 33.762821197509766
+2025-03-21 16:32:31,860 - INFO - Epoch: 7/31 TrainLoss: 0.24767644479870796 ValLoss: 33.507808685302734
+2025-03-21 16:32:32,000 - INFO - Epoch: 8/31 TrainLoss: 0.2555644143372774 ValLoss: 34.2288703918457
+2025-03-21 16:32:32,135 - INFO - Epoch: 9/31 TrainLoss: 0.255920784547925 ValLoss: 33.945613861083984
+2025-03-21 16:32:32,278 - INFO - Epoch: 10/31 TrainLoss: 0.23680710420012474 ValLoss: 33.727882385253906
+2025-03-21 16:32:32,415 - INFO - Epoch: 11/31 TrainLoss: 0.23488267101347446 ValLoss: 33.706939697265625
+2025-03-21 16:32:32,549 - INFO - Epoch: 12/31 TrainLoss: 0.24283057674765587 ValLoss: 34.1219482421875
+2025-03-21 16:32:32,684 - INFO - Epoch: 13/31 TrainLoss: 0.2290013674646616 ValLoss: 33.60948181152344
+2025-03-21 16:32:32,819 - INFO - Epoch: 14/31 TrainLoss: 0.2242029681801796 ValLoss: 33.602821350097656
+2025-03-21 16:32:32,965 - INFO - Epoch: 15/31 TrainLoss: 0.22901892550289632 ValLoss: 33.8939323425293
+2025-03-21 16:32:33,103 - INFO - Epoch: 16/31 TrainLoss: 0.2371880542486906 ValLoss: 33.86397933959961
+2025-03-21 16:32:33,237 - INFO - Epoch: 17/31 TrainLoss: 0.22994893379509448 ValLoss: 33.8113899230957
+2025-03-21 16:32:33,372 - INFO - Epoch: 18/31 TrainLoss: 0.22167810313403608 ValLoss: 34.019283294677734
+2025-03-21 16:32:33,507 - INFO - Epoch: 19/31 TrainLoss: 0.22327558360993863 ValLoss: 34.101531982421875
+2025-03-21 16:32:33,640 - INFO - Epoch: 20/31 TrainLoss: 0.23024686127901078 ValLoss: 33.86063766479492
+2025-03-21 16:32:33,776 - INFO - Epoch: 21/31 TrainLoss: 0.22740005925297738 ValLoss: 33.94137191772461
+2025-03-21 16:32:33,927 - INFO - Epoch: 22/31 TrainLoss: 0.22011944986879825 ValLoss: 34.02131271362305
+2025-03-21 16:32:34,075 - INFO - Epoch: 23/31 TrainLoss: 0.21738004982471465 ValLoss: 33.93503952026367
+2025-03-21 16:32:34,218 - INFO - Epoch: 24/31 TrainLoss: 0.2215955898165703 ValLoss: 33.948883056640625
+2025-03-21 16:32:34,358 - INFO - Epoch: 25/31 TrainLoss: 0.22843717448413373 ValLoss: 34.05607223510742
+2025-03-21 16:32:34,491 - INFO - Epoch: 26/31 TrainLoss: 0.23207279555499555 ValLoss: 33.954063415527344
+2025-03-21 16:32:34,628 - INFO - Epoch: 27/31 TrainLoss: 0.21813893057405948 ValLoss: 33.971256256103516
+2025-03-21 16:32:34,765 - INFO - Epoch: 28/31 TrainLoss: 0.2185685396194458 ValLoss: 33.855648040771484
+2025-03-21 16:32:34,898 - INFO - Epoch: 29/31 TrainLoss: 0.2118374478071928 ValLoss: 33.819068908691406
+2025-03-21 16:32:35,036 - INFO - Epoch: 30/31 TrainLoss: 0.22265188582241535 ValLoss: 33.854366302490234
+2025-03-21 16:32:35,169 - INFO - Epoch: 31/31 TrainLoss: 0.21790058128535747 ValLoss: 33.84196090698242
+2025-03-21 16:32:35,169 - INFO - Best model training completed...
+2025-03-21 16:32:51,454 - INFO - Training completed
+2025-03-21 16:32:51,456 - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/Desktop/WeatherAppMLOps/another_project/training_pipeline/model_train.py", line 228, in train
+    os.makedirs(MODEL_DIR, exist_ok=True)
+NameError: name 'MODEL_DIR' is not defined
+
+2025-03-21 17:04:54,049 - INFO - The path to processed train path: artifacts/processed/processed_train.csv
+2025-03-21 17:04:54,049 - INFO - The path to model dir: artifacts/model
+2025-03-21 17:05:33,352 - INFO - The path to processed train path: artifacts/processed/processed_train.csv
+2025-03-21 17:05:33,352 - INFO - The path to model dir: artifacts/model
+2025-03-21 17:05:33,815 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-03-21 17:05:33,820 - INFO - Accessing as dipankardutta399
+2025-03-21 17:05:34,386 - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/dipankardutta399/WeatherProj "HTTP/1.1 200 OK"
+2025-03-21 17:05:34,845 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-03-21 17:05:34,846 - INFO - Initialized MLflow to track repo "dipankardutta399/WeatherProj"
+2025-03-21 17:05:34,846 - INFO - Repository dipankardutta399/WeatherProj initialized!
+2025-03-21 17:05:35,920 - INFO - Parameter Tuning started
+2025-03-21 17:06:48,944 - INFO - Parameter tuning completed successfully...
+2025-03-21 17:06:48,944 - INFO - Best params are: {'hidden_size': 100, 'learning_rate': 0.0013659145437970406, 'dropout': 0.42061953460683943, 'weight_decay': 1.791291991540748e-05, 'n_layers': 5, 'n_epochs': 16}
+2025-03-21 17:06:50,584 - INFO - Best model training starting...
+2025-03-21 17:06:50,731 - INFO - Epoch: 1/16 TrainLoss: 0.6019362650811673 ValLoss: 36.14547348022461
+2025-03-21 17:06:50,844 - INFO - Epoch: 2/16 TrainLoss: 0.33307182788848877 ValLoss: 35.620601654052734
+2025-03-21 17:06:50,966 - INFO - Epoch: 3/16 TrainLoss: 0.34286849200725555 ValLoss: 35.086856842041016
+2025-03-21 17:06:51,079 - INFO - Epoch: 4/16 TrainLoss: 0.32558370716869833 ValLoss: 34.6346435546875
+2025-03-21 17:06:51,215 - INFO - Epoch: 5/16 TrainLoss: 0.30557557493448256 ValLoss: 34.72167205810547
+2025-03-21 17:06:51,314 - INFO - Epoch: 6/16 TrainLoss: 0.2915422525256872 ValLoss: 34.4267692565918
+2025-03-21 17:06:51,415 - INFO - Epoch: 7/16 TrainLoss: 0.29504747577011586 ValLoss: 34.51311492919922
+2025-03-21 17:06:51,545 - INFO - Epoch: 8/16 TrainLoss: 0.29082378298044204 ValLoss: 34.16031265258789
+2025-03-21 17:06:51,648 - INFO - Epoch: 9/16 TrainLoss: 0.27115428633987904 ValLoss: 34.06459426879883
+2025-03-21 17:06:51,776 - INFO - Epoch: 10/16 TrainLoss: 0.2663341723382473 ValLoss: 34.086360931396484
+2025-03-21 17:06:51,878 - INFO - Epoch: 11/16 TrainLoss: 0.26064145304262637 ValLoss: 34.35361099243164
+2025-03-21 17:06:52,006 - INFO - Epoch: 12/16 TrainLoss: 0.2624667126685381 ValLoss: 34.01328659057617
+2025-03-21 17:06:52,109 - INFO - Epoch: 13/16 TrainLoss: 0.25124580375850203 ValLoss: 33.738460540771484
+2025-03-21 17:06:52,238 - INFO - Epoch: 14/16 TrainLoss: 0.2529474891722202 ValLoss: 33.55887222290039
+2025-03-21 17:06:52,353 - INFO - Epoch: 15/16 TrainLoss: 0.24847621098160744 ValLoss: 33.68049240112305
+2025-03-21 17:06:52,492 - INFO - Epoch: 16/16 TrainLoss: 0.24207164756953717 ValLoss: 33.87057876586914
+2025-03-21 17:06:52,492 - INFO - Best model training completed...
+2025-03-21 17:07:10,519 - INFO - Training completed
+2025-03-21 17:07:10,539 - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/Desktop/WeatherAppMLOps/another_project/training_pipeline/model_train.py", line 240, in train
+    model= torch.load(PyTorch_MODEL_OUTPUT_PATH)
+  File "/home/ubuntu/Desktop/WeatherAppMLOps/another_project/env/lib/python3.10/site-packages/torch/serialization.py", line 1470, in load
+    raise pickle.UnpicklingError(_get_wo_message(str(e))) from None
+_pickle.UnpicklingError: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL __main__.LSTMModel was not an allowed global by default. Please use `torch.serialization.add_safe_globals([LSTMModel])` or the `torch.serialization.safe_globals([LSTMModel])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+
+2025-03-21 17:22:56,123 - INFO - The path to processed train path: artifacts/processed/processed_train.csv
+2025-03-21 17:22:56,123 - INFO - The path to model dir: artifacts/model
+2025-03-21 17:22:56,638 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-03-21 17:22:56,642 - INFO - Accessing as dipankardutta399
+2025-03-21 17:22:57,249 - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/dipankardutta399/WeatherProj "HTTP/1.1 200 OK"
+2025-03-21 17:22:57,763 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-03-21 17:22:57,764 - INFO - Initialized MLflow to track repo "dipankardutta399/WeatherProj"
+2025-03-21 17:22:57,764 - INFO - Repository dipankardutta399/WeatherProj initialized!
+2025-03-21 17:22:58,829 - INFO - Parameter Tuning started
+2025-03-21 17:24:44,128 - INFO - Parameter tuning completed successfully...
+2025-03-21 17:24:44,128 - INFO - Best params are: {'hidden_size': 50, 'learning_rate': 0.002809635391167253, 'dropout': 0.38288653089226565, 'weight_decay': 4.276338130507063e-05, 'n_layers': 4, 'n_epochs': 45}
+2025-03-21 17:24:45,097 - INFO - Best model training starting...
+2025-03-21 17:24:45,193 - INFO - Epoch: 1/45 TrainLoss: 0.5783939771354198 ValLoss: 34.87202072143555
+2025-03-21 17:24:45,282 - INFO - Epoch: 2/45 TrainLoss: 0.328791693598032 ValLoss: 34.444007873535156
+2025-03-21 17:24:45,418 - INFO - Epoch: 3/45 TrainLoss: 0.3068925175815821 ValLoss: 34.13437271118164
+2025-03-21 17:24:45,512 - INFO - Epoch: 4/45 TrainLoss: 0.30156909488141537 ValLoss: 34.20671081542969
+2025-03-21 17:24:45,644 - INFO - Epoch: 5/45 TrainLoss: 0.285429298132658 ValLoss: 34.07250213623047
+2025-03-21 17:24:45,742 - INFO - Epoch: 6/45 TrainLoss: 0.26873328238725663 ValLoss: 34.13957214355469
+2025-03-21 17:24:45,873 - INFO - Epoch: 7/45 TrainLoss: 0.2674457374960184 ValLoss: 33.68244552612305
+2025-03-21 17:24:45,968 - INFO - Epoch: 8/45 TrainLoss: 0.2594155762344599 ValLoss: 33.6074104309082
+2025-03-21 17:24:46,090 - INFO - Epoch: 9/45 TrainLoss: 0.2553061652928591 ValLoss: 33.450645446777344
+2025-03-21 17:24:46,198 - INFO - Epoch: 10/45 TrainLoss: 0.24333830811083318 ValLoss: 33.465248107910156
+2025-03-21 17:24:46,290 - INFO - Epoch: 11/45 TrainLoss: 0.24686038605868815 ValLoss: 33.50263595581055
+2025-03-21 17:24:46,415 - INFO - Epoch: 12/45 TrainLoss: 0.24308400005102157 ValLoss: 33.45697021484375
+2025-03-21 17:24:46,513 - INFO - Epoch: 13/45 TrainLoss: 0.24775790087878705 ValLoss: 33.542999267578125
+2025-03-21 17:24:46,644 - INFO - Epoch: 14/45 TrainLoss: 0.23781187795102596 ValLoss: 33.29818344116211
+2025-03-21 17:24:46,734 - INFO - Epoch: 15/45 TrainLoss: 0.2376827098429203 ValLoss: 33.186912536621094
+2025-03-21 17:24:46,865 - INFO - Epoch: 16/45 TrainLoss: 0.23725325427949429 ValLoss: 33.371524810791016
+2025-03-21 17:24:46,957 - INFO - Epoch: 17/45 TrainLoss: 0.24254791028797626 ValLoss: 33.12103271484375
+2025-03-21 17:24:47,053 - INFO - Epoch: 18/45 TrainLoss: 0.24100399389863014 ValLoss: 33.20785903930664
+2025-03-21 17:24:47,175 - INFO - Epoch: 19/45 TrainLoss: 0.23943261615931988 ValLoss: 33.30876541137695
+2025-03-21 17:24:47,268 - INFO - Epoch: 20/45 TrainLoss: 0.23657248243689538 ValLoss: 33.29380798339844
+2025-03-21 17:24:47,395 - INFO - Epoch: 21/45 TrainLoss: 0.23777048736810685 ValLoss: 33.322078704833984
+2025-03-21 17:24:47,487 - INFO - Epoch: 22/45 TrainLoss: 0.23740647695958614 ValLoss: 33.44448471069336
+2025-03-21 17:24:47,607 - INFO - Epoch: 23/45 TrainLoss: 0.23423625938594342 ValLoss: 33.24028396606445
+2025-03-21 17:24:47,709 - INFO - Epoch: 24/45 TrainLoss: 0.23445250652730465 ValLoss: 33.33283996582031
+2025-03-21 17:24:47,813 - INFO - Epoch: 25/45 TrainLoss: 0.2293058004230261 ValLoss: 33.51963806152344
+2025-03-21 17:24:47,958 - INFO - Epoch: 26/45 TrainLoss: 0.23413297533988953 ValLoss: 33.3914680480957
+2025-03-21 17:24:48,052 - INFO - Epoch: 27/45 TrainLoss: 0.23030139841139316 ValLoss: 33.222801208496094
+2025-03-21 17:24:48,178 - INFO - Epoch: 28/45 TrainLoss: 0.22989516891539097 ValLoss: 33.512115478515625
+2025-03-21 17:24:48,270 - INFO - Epoch: 29/45 TrainLoss: 0.22660644315183162 ValLoss: 33.30321502685547
+2025-03-21 17:24:48,402 - INFO - Epoch: 30/45 TrainLoss: 0.2380358934402466 ValLoss: 33.391048431396484
+2025-03-21 17:24:48,490 - INFO - Epoch: 31/45 TrainLoss: 0.23071520105004312 ValLoss: 33.2559928894043
+2025-03-21 17:24:48,620 - INFO - Epoch: 32/45 TrainLoss: 0.22646573409438134 ValLoss: 33.421478271484375
+2025-03-21 17:24:48,708 - INFO - Epoch: 33/45 TrainLoss: 0.23268623612821102 ValLoss: 33.481903076171875
+2025-03-21 17:24:48,846 - INFO - Epoch: 34/45 TrainLoss: 0.22023095190525055 ValLoss: 33.489192962646484
+2025-03-21 17:24:48,958 - INFO - Epoch: 35/45 TrainLoss: 0.2275013394653797 ValLoss: 33.77433776855469
+2025-03-21 17:24:49,056 - INFO - Epoch: 36/45 TrainLoss: 0.2232751168310642 ValLoss: 33.86924362182617
+2025-03-21 17:24:49,181 - INFO - Epoch: 37/45 TrainLoss: 0.217295428737998 ValLoss: 34.096595764160156
+2025-03-21 17:24:49,277 - INFO - Epoch: 38/45 TrainLoss: 0.2227646704763174 ValLoss: 33.675296783447266
+2025-03-21 17:24:49,409 - INFO - Epoch: 39/45 TrainLoss: 0.22188451699912548 ValLoss: 34.192100524902344
+2025-03-21 17:24:49,499 - INFO - Epoch: 40/45 TrainLoss: 0.22148735262453556 ValLoss: 33.7857551574707
+2025-03-21 17:24:49,627 - INFO - Epoch: 41/45 TrainLoss: 0.22367429211735726 ValLoss: 34.20085906982422
+2025-03-21 17:24:49,719 - INFO - Epoch: 42/45 TrainLoss: 0.21986444517970086 ValLoss: 33.69689178466797
+2025-03-21 17:24:49,816 - INFO - Epoch: 43/45 TrainLoss: 0.2164230577647686 ValLoss: 34.24825668334961
+2025-03-21 17:24:49,950 - INFO - Epoch: 44/45 TrainLoss: 0.21807415783405304 ValLoss: 34.0471305847168
+2025-03-21 17:24:50,042 - INFO - Epoch: 45/45 TrainLoss: 0.21741353683173656 ValLoss: 33.819637298583984
+2025-03-21 17:24:50,043 - INFO - Best model training completed...
+2025-03-21 17:25:06,277 - INFO - Training completed
+2025-03-21 17:25:06,289 - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/Desktop/WeatherAppMLOps/another_project/training_pipeline/model_train.py", line 257, in train
+    model.eval()
+AttributeError: 'collections.OrderedDict' object has no attribute 'eval'
+
+2025-03-21 17:28:07,261 - INFO - The path to processed train path: artifacts/processed/processed_train.csv
+2025-03-21 17:28:07,261 - INFO - The path to model dir: artifacts/model
+2025-03-21 17:28:07,692 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-03-21 17:28:07,695 - INFO - Accessing as dipankardutta399
+2025-03-21 17:28:08,193 - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/dipankardutta399/WeatherProj "HTTP/1.1 200 OK"
+2025-03-21 17:28:08,754 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-03-21 17:28:08,756 - INFO - Initialized MLflow to track repo "dipankardutta399/WeatherProj"
+2025-03-21 17:28:08,756 - INFO - Repository dipankardutta399/WeatherProj initialized!
+2025-03-21 17:28:09,773 - INFO - Parameter Tuning started
+2025-03-21 17:29:42,926 - INFO - Parameter tuning completed successfully...
+2025-03-21 17:29:42,926 - INFO - Best params are: {'hidden_size': 150, 'learning_rate': 0.009234110934485923, 'dropout': 0.12171557332108303, 'weight_decay': 5.6043544481465975e-05, 'n_layers': 4, 'n_epochs': 44}
+2025-03-21 17:29:43,792 - INFO - Best model training starting...
+2025-03-21 17:29:43,995 - INFO - Epoch: 1/44 TrainLoss: 0.4554112173616886 ValLoss: 35.499473571777344
+2025-03-21 17:29:44,179 - INFO - Epoch: 2/44 TrainLoss: 0.3060452416539192 ValLoss: 35.35227584838867
+2025-03-21 17:29:44,364 - INFO - Epoch: 3/44 TrainLoss: 0.2594440791755915 ValLoss: 33.91720199584961
+2025-03-21 17:29:44,550 - INFO - Epoch: 4/44 TrainLoss: 0.2724736511707306 ValLoss: 33.769866943359375
+2025-03-21 17:29:44,734 - INFO - Epoch: 5/44 TrainLoss: 0.26687547415494917 ValLoss: 33.975128173828125
+2025-03-21 17:29:44,918 - INFO - Epoch: 6/44 TrainLoss: 0.24554111808538437 ValLoss: 34.56550216674805
+2025-03-21 17:29:45,103 - INFO - Epoch: 7/44 TrainLoss: 0.2539164416491985 ValLoss: 34.027156829833984
+2025-03-21 17:29:45,288 - INFO - Epoch: 8/44 TrainLoss: 0.23884582258760928 ValLoss: 34.37442398071289
+2025-03-21 17:29:45,474 - INFO - Epoch: 9/44 TrainLoss: 0.23045886121690273 ValLoss: 33.96570587158203
+2025-03-21 17:29:45,658 - INFO - Epoch: 10/44 TrainLoss: 0.22754173055291177 ValLoss: 33.8487548828125
+2025-03-21 17:29:45,842 - INFO - Epoch: 11/44 TrainLoss: 0.23080783598124982 ValLoss: 34.288490295410156
+2025-03-21 17:29:46,027 - INFO - Epoch: 12/44 TrainLoss: 0.2298251401633024 ValLoss: 34.652347564697266
+2025-03-21 17:29:46,213 - INFO - Epoch: 13/44 TrainLoss: 0.22502203062176704 ValLoss: 34.02064514160156
+2025-03-21 17:29:46,399 - INFO - Epoch: 14/44 TrainLoss: 0.22264421097934245 ValLoss: 33.89563751220703
+2025-03-21 17:29:46,583 - INFO - Epoch: 15/44 TrainLoss: 0.2200122933834791 ValLoss: 33.649871826171875
+2025-03-21 17:29:46,767 - INFO - Epoch: 16/44 TrainLoss: 0.23430637642741203 ValLoss: 33.650814056396484
+2025-03-21 17:29:46,951 - INFO - Epoch: 17/44 TrainLoss: 0.22340561226010322 ValLoss: 33.84153366088867
+2025-03-21 17:29:47,137 - INFO - Epoch: 18/44 TrainLoss: 0.2255745992064476 ValLoss: 33.5697135925293
+2025-03-21 17:29:47,321 - INFO - Epoch: 19/44 TrainLoss: 0.2317166619002819 ValLoss: 33.86616516113281
+2025-03-21 17:29:47,506 - INFO - Epoch: 20/44 TrainLoss: 0.23657871820032597 ValLoss: 34.30506134033203
+2025-03-21 17:29:47,691 - INFO - Epoch: 21/44 TrainLoss: 0.21524059325456618 ValLoss: 34.208953857421875
+2025-03-21 17:29:47,888 - INFO - Epoch: 22/44 TrainLoss: 0.21566233336925505 ValLoss: 34.24009323120117
+2025-03-21 17:29:48,080 - INFO - Epoch: 23/44 TrainLoss: 0.21540009081363679 ValLoss: 34.284000396728516
+2025-03-21 17:29:48,266 - INFO - Epoch: 24/44 TrainLoss: 0.2221765983849764 ValLoss: 34.80337142944336
+2025-03-21 17:29:48,461 - INFO - Epoch: 25/44 TrainLoss: 0.21550249196588994 ValLoss: 33.92146682739258
+2025-03-21 17:29:48,646 - INFO - Epoch: 26/44 TrainLoss: 0.2137794502079487 ValLoss: 34.470882415771484
+2025-03-21 17:29:48,834 - INFO - Epoch: 27/44 TrainLoss: 0.21080581843852997 ValLoss: 33.85589599609375
+2025-03-21 17:29:49,024 - INFO - Epoch: 28/44 TrainLoss: 0.2032101582735777 ValLoss: 33.88334655761719
+2025-03-21 17:29:49,216 - INFO - Epoch: 29/44 TrainLoss: 0.22507574260234833 ValLoss: 33.738338470458984
+2025-03-21 17:29:49,410 - INFO - Epoch: 30/44 TrainLoss: 0.21138302311301232 ValLoss: 34.01294708251953
+2025-03-21 17:29:49,605 - INFO - Epoch: 31/44 TrainLoss: 0.20114215910434724 ValLoss: 34.300941467285156
+2025-03-21 17:29:49,795 - INFO - Epoch: 32/44 TrainLoss: 0.21134508661925794 ValLoss: 33.732181549072266
+2025-03-21 17:29:49,984 - INFO - Epoch: 33/44 TrainLoss: 0.22315841615200044 ValLoss: 35.18220138549805
+2025-03-21 17:29:50,179 - INFO - Epoch: 34/44 TrainLoss: 0.20011065304279327 ValLoss: 33.68107223510742
+2025-03-21 17:29:50,372 - INFO - Epoch: 35/44 TrainLoss: 0.19780937172472476 ValLoss: 33.705650329589844
+2025-03-21 17:29:50,563 - INFO - Epoch: 36/44 TrainLoss: 0.19918181262910367 ValLoss: 33.65657424926758
+2025-03-21 17:29:50,752 - INFO - Epoch: 37/44 TrainLoss: 0.19830636736005544 ValLoss: 34.34392166137695
+2025-03-21 17:29:50,938 - INFO - Epoch: 38/44 TrainLoss: 0.20396184138953685 ValLoss: 33.9257926940918
+2025-03-21 17:29:51,126 - INFO - Epoch: 39/44 TrainLoss: 0.19168910793960095 ValLoss: 34.42333221435547
+2025-03-21 17:29:51,318 - INFO - Epoch: 40/44 TrainLoss: 0.18450602181255818 ValLoss: 34.53055191040039
+2025-03-21 17:29:51,502 - INFO - Epoch: 41/44 TrainLoss: 0.18483819253742695 ValLoss: 33.916385650634766
+2025-03-21 17:29:51,688 - INFO - Epoch: 42/44 TrainLoss: 0.17918049320578575 ValLoss: 34.19823455810547
+2025-03-21 17:29:51,874 - INFO - Epoch: 43/44 TrainLoss: 0.17642748579382897 ValLoss: 34.0929069519043
+2025-03-21 17:29:52,067 - INFO - Epoch: 44/44 TrainLoss: 0.18614178746938706 ValLoss: 34.230918884277344
+2025-03-21 17:29:52,067 - INFO - Best model training completed...
+2025-03-21 17:30:08,601 - INFO - Training completed
+2025-03-21 17:30:08,615 - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/Desktop/WeatherAppMLOps/another_project/training_pipeline/model_train.py", line 263, in train
+    output= model(x).detach().cpu().numpy()
+NameError: name 'model' is not defined
+
+2025-03-21 17:30:57,521 - INFO - The path to processed train path: artifacts/processed/processed_train.csv
+2025-03-21 17:30:57,521 - INFO - The path to model dir: artifacts/model
+2025-03-21 17:30:58,021 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-03-21 17:30:58,024 - INFO - Accessing as dipankardutta399
+2025-03-21 17:30:58,640 - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/dipankardutta399/WeatherProj "HTTP/1.1 200 OK"
+2025-03-21 17:30:59,148 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-03-21 17:30:59,149 - INFO - Initialized MLflow to track repo "dipankardutta399/WeatherProj"
+2025-03-21 17:30:59,149 - INFO - Repository dipankardutta399/WeatherProj initialized!
+2025-03-21 17:31:00,169 - INFO - Parameter Tuning started
+2025-03-21 17:31:59,149 - INFO - Parameter tuning completed successfully...
+2025-03-21 17:31:59,149 - INFO - Best params are: {'hidden_size': 100, 'learning_rate': 0.007304989104483499, 'dropout': 0.4498806736856965, 'weight_decay': 2.4905125836122158e-05, 'n_layers': 3, 'n_epochs': 23}
+2025-03-21 17:32:00,083 - INFO - Best model training starting...
+2025-03-21 17:32:00,166 - INFO - Epoch: 1/23 TrainLoss: 0.4355071373283863 ValLoss: 35.10731506347656
+2025-03-21 17:32:00,250 - INFO - Epoch: 2/23 TrainLoss: 0.3171225056052208 ValLoss: 35.33774185180664
+2025-03-21 17:32:00,341 - INFO - Epoch: 3/23 TrainLoss: 0.27525053508579733 ValLoss: 35.13283157348633
+2025-03-21 17:32:00,428 - INFO - Epoch: 4/23 TrainLoss: 0.2732892744243145 ValLoss: 35.00837326049805
+2025-03-21 17:32:00,514 - INFO - Epoch: 5/23 TrainLoss: 0.2712788231670856 ValLoss: 34.1558723449707
+2025-03-21 17:32:00,602 - INFO - Epoch: 6/23 TrainLoss: 0.2529285401105881 ValLoss: 34.039791107177734
+2025-03-21 17:32:00,689 - INFO - Epoch: 7/23 TrainLoss: 0.2522109981626272 ValLoss: 34.94282913208008
+2025-03-21 17:32:00,775 - INFO - Epoch: 8/23 TrainLoss: 0.2433741047978401 ValLoss: 34.60926055908203
+2025-03-21 17:32:00,861 - INFO - Epoch: 9/23 TrainLoss: 0.24296894371509553 ValLoss: 34.134361267089844
+2025-03-21 17:32:00,948 - INFO - Epoch: 10/23 TrainLoss: 0.23470485359430313 ValLoss: 33.90428161621094
+2025-03-21 17:32:01,035 - INFO - Epoch: 11/23 TrainLoss: 0.2379258580505848 ValLoss: 34.28813934326172
+2025-03-21 17:32:01,122 - INFO - Epoch: 12/23 TrainLoss: 0.23132852390408515 ValLoss: 35.1903190612793
+2025-03-21 17:32:01,207 - INFO - Epoch: 13/23 TrainLoss: 0.24280011616647243 ValLoss: 34.382232666015625
+2025-03-21 17:32:01,296 - INFO - Epoch: 14/23 TrainLoss: 0.23967749550938605 ValLoss: 34.10829162597656
+2025-03-21 17:32:01,382 - INFO - Epoch: 15/23 TrainLoss: 0.24001359716057777 ValLoss: 34.124332427978516
+2025-03-21 17:32:01,465 - INFO - Epoch: 16/23 TrainLoss: 0.23631040751934052 ValLoss: 34.57634735107422
+2025-03-21 17:32:01,553 - INFO - Epoch: 17/23 TrainLoss: 0.22750469110906124 ValLoss: 34.87693786621094
+2025-03-21 17:32:01,641 - INFO - Epoch: 18/23 TrainLoss: 0.2328391384333372 ValLoss: 34.16209030151367
+2025-03-21 17:32:01,726 - INFO - Epoch: 19/23 TrainLoss: 0.22842979431152344 ValLoss: 34.582733154296875
+2025-03-21 17:32:01,810 - INFO - Epoch: 20/23 TrainLoss: 0.24293349757790567 ValLoss: 34.63029098510742
+2025-03-21 17:32:01,897 - INFO - Epoch: 21/23 TrainLoss: 0.22280282489955425 ValLoss: 34.2270622253418
+2025-03-21 17:32:01,981 - INFO - Epoch: 22/23 TrainLoss: 0.23420355021953582 ValLoss: 34.31341552734375
+2025-03-21 17:32:02,072 - INFO - Epoch: 23/23 TrainLoss: 0.2269602306187153 ValLoss: 34.31088638305664
+2025-03-21 17:32:02,072 - INFO - Best model training completed...
+2025-03-21 17:32:18,718 - INFO - Training completed
+2025-03-21 17:32:18,731 - INFO - Testing loss: 39.33039855957031
+2025-03-21 17:32:18,731 - INFO - All the model training and evaluation completed successfully...
+2025-03-21 17:38:58,678 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-21 17:38:58,678 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 17:42:54,629 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-21 17:42:54,629 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 17:43:25,064 - INFO - 127.0.0.1 - - [21/Mar/2025 17:43:25] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-21 17:43:25,101 - INFO - 127.0.0.1 - - [21/Mar/2025 17:43:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-21 17:43:31,328 - INFO - 127.0.0.1 - - [21/Mar/2025 17:43:31] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-21 17:43:31,361 - INFO - 127.0.0.1 - - [21/Mar/2025 17:43:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-21 17:44:02,433 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-21 17:44:02,433 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 17:44:39,716 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-21 17:44:39,716 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 17:44:50,020 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-21 17:44:50,020 - INFO - [33mPress CTRL+C to quit[0m
